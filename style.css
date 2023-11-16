@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100vw;
+    position: sticky;
+}
+
+#display {
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#cart-button {
+background-color: rgb(64, 160, 64);
+border-radius: 15px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#font {
+    color: white;
+}
+
+#footer{
+    margin-bottom: auto;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    bottom: 0;
+    position: fixed
+}
